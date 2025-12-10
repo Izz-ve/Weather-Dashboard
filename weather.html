@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER FORECAST</title>
+    <link rel="stylesheet" href="w.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav class="nav_bar">
+        <div class="navbar_elements">
+            <img src="images/download.png" class="icon">
+        
+            <ul class="elements">
+            <li><a href="#weath" class="hswaf">Home</a></li>
+            <li><a href="#weath" class="hswaf">Weather details</a></li>
+            <li><a href="#about" class="hswaf">About</a></li>
+            
+            </ul>
+        <div>
+            <input placeholder ="Enter City " class="search"></a>
+            <button class="search_button">Search</button>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        </div>
+        
+    </nav>
+    <div class="main_page">
+        <div class="weather_details" id="weath">
+            <h1 >Weather Forecast</h1>
+            
+            <div class="weather_info">
+                <div class="ct"><h2>City</h2></div>
+                <div class="temprature"><h2>Temprature</h2></div>
+                <div class="humidity"><h2>Humidity</h2></div>
+                
+
+            </div>
+            <div class="weather_info" style="margin-top: 50px;">
+                <div class="windspeed"><h2>Windspeed</h2></div>
+                <div class="atm"><h2>Atm. Pressure</h2></div>
+                
+                
+
+            </div>
+
+            
+            
+            </div>
+
+        </div>
+        <div class="About" id="about">
+            <h1 >About<img class="tech" src="images/technology.jpg"></h1>
+            <p style=" font-size: 20px;"> This is a weather dashboard which correctly
+                fetches real time weather 
+                data of the required city from an API and shows it. It was build by Ishant Verma
+                as a project under KodeinKGP Web 3.0 society IIT KGP.
+
+            </p>
+            <h2 style="margin-top: 29px;">Contact Us:</h2>
+            <div class="contact">
+                <a href="#" class="link" target="_blank"><img style="border-radius: 11px;"    class='footer' src="images/gmaill-removebg-preview.png">ishantverma29012008@gmail.com</a>
+                <a href="https://www.linkedin.com/in/ishant-verma-50831b38b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="link" target="_blank"><img  class='footer' src="images/linkedin-removebg-preview.png">Linkedin</a>
+                <a href="https://www.instagram.com/_hazed_cloud_?igsh=eWpiYm1jZTdhOGY0" class="link"><img class='footer' src="images/insta-removebg-preview.png" target="_blank">Instagram</a>
+                <a href="https://kodeinkgp.in/" class="link"><img class='footer' src="images/kik-removebg-preview.png" target="_blank">KodeinKGP</a>
+
+
+            </div>
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=CByd3jGuuiXaewiv" class="terms" target="_blank">Terms and conditions</a>
+
+            
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
